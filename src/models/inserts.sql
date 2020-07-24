@@ -1,0 +1,4 @@
+INSERT INTO products (nombre,precio,categoria,likes,img) VALUES ('libreta',50,'papeleria','5.0','https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRopF5X1PUAIsnzvZjU_k6XXpOmwIZEtF43LQ&usqp=CAU');
+INSERT INTO products (nombre,precio,categoria,likes,img) VALUES ('playera unam',530,'ropa','9.5','https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWDVWZRBDe56S2nkx32Bxhow9HKNYHsxbOXA&usqp=CAU');
+INSERT INTO products (nombre,precio,categoria,likes,img) VALUES ('sticker ovalo',30,'stickers','4.5','https://i.ebayimg.com/images/g/PakAAOSwH61cRTFt/s-l300.jpg');
+INSERT INTO users (nombre,correo,pass) VALUES ('prueba','prueba@prueba.com','PRUEBA');

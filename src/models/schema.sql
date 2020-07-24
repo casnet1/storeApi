@@ -1,0 +1,33 @@
+DROP DATABASE IF EXISTS store;
+
+CREATE DATABASE IF NOT EXISTS store;
+
+USE store;
+
+CREATE TABLE IF NOT EXISTS products(
+    clave INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(20) NOT NULL,
+    precio INT NOT NULL,
+    categoria VARCHAR(20) NOT NULL,
+    likes DECIMAL(2,1),
+    img VARCHAR(255)
+);
+
+
+DESCRIBE product;
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS users(
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(20),
+    correo VARCHAR(40) NOT NULL,
+    pass VARCHAR(150) NOT NULL
+   
+);
+
+
+DESCRIBE users;
+
